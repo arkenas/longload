@@ -19,7 +19,7 @@ items:
             app: longload
         spec:
           containers:
-          - image: registry.ocp4.example.com:8443/redhattraining/long-load:v1
+          - image: ghcr.io/arkenas/long-load:latest
             name: longload
             env:
             - name: START_DELAY
